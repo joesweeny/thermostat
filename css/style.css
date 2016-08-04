@@ -1,11 +1,87 @@
-.low-usage {
-  color: green;
+.page {
+  color: #585454;
+  background: #2980b9;
+  background: -webkit-linear-gradient(to left, #2980b9 , #2c3e50);
+  background: linear-gradient(to left, #2980b9 , #2c3e50);
+  font-family: Raleway, Helvetica, sans-serif;
 }
 
-.medium-usage {
-  color: orange;
+.main {
+  text-align: center;
+}
+
+#container {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  position: relative;
 }
 
 .high-usage {
-  color: red;
+  background: #cb2d3e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #cb2d3e , #ef473a); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #cb2d3e , #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.medium-usage {
+  background: #f46b45; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f46b45 , #eea849); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f46b45 , #eea849); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.low-usage {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #76b852 , #8DC26F); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #76b852 , #8DC26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=submit] {
+  background-color: #9c9e9d; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#temperature-down {
+  background-color: #de3434;
+}
+
+#temperature-reset {
+  background-color: #de3434;
 }

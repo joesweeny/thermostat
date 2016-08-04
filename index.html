@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html class="page">
   <head>
     <title>Thermostat</title>
     <link rel="stylesheet" href="css/style.css" charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <section>
+    <section class="main">
+    <div id="container"></div>
       <h1 id="temperature"></h1>
       <h2 id="outside-temp"></h2>
       <p>
@@ -23,6 +25,7 @@
       </p>
     </section>
     <script src="src/jquery-3.1.0.min.js"></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
     <script src="src/thermostat.js"></script>
     <script src="src/interface.js"></script>
   </body>
