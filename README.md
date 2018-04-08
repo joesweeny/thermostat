@@ -7,5 +7,5 @@ An external API from Open Weather Map has been integrated to display the current
 The front end is basic CSS combined with jQuery, most notably the background changing colour once low, medium or high
 usage has been reached. An additional temperate range can be reached depending on whether the power saving mode is switched on or off
                          
-View a working version of this [here](http://joesweeny.me/thermostat/thermostat.html)
+View a working version of this [here](http://joesweeny.co.uk/thermostat/index.html)
                               
